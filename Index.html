@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+<meta charset="utf-8">
+<title>Google Search</title>
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <h1>Esta es mi Pagina de Inicio</h1>
-    Aqui puedes entrar a mis 
-    <a class="btn btn-sm btn-default disabled" href="#" role="button">button</a>
-    <a href="https://www.zenbrando.com.ar/"> Este es mi sitio principal</a>
-    <a href="https://www.justargentina.com/">Este es mi sitio alternativo</a> 
-    Sino funciona tenes otras paginas
-    <a href="hola.html"></a>
-    <a href="imagen.html"></a>
-    <a href="listados.html"></a>
-    <a href="tabla.html"></a>
-    </body>
+    <div class="header">
+        <a href="imagesearch.html">Image Search</a> | <a href="advancedsearch.html">Advanced Search</a>
+    </div>
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" id="search" placeholder="Search Google" autofocus>
+            <input type="submit" value="Google Search">
+            <input type="submit" name="btnI" value="I'm Feeling Lucky">
+        </form>
+    </div>
+</body>
 </html>
